@@ -1,15 +1,36 @@
+header img{
+    height: 100%;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+.menu{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+    color: white;
+    background-color: rgb(172, 2, 2);
+}
+
+
 .menu-page{
     display: grid;
     grid-template-columns: 1fr 4fr;
 }
 
-nav{
+.menu-page nav{
     background-color: rgb(63, 63, 177);
     display: flex;
     justify-content: center;
 }
 
-nav ul{
+.menu-page nav ul{
     display: flex;
     margin-top: 50px;
 
@@ -20,7 +41,7 @@ nav ul{
     font-weight: 700;
 }
 
-nav ul li:hover{
+.menu-page nav ul li:hover{
     color: rgb(214, 77, 77);
 }
 
