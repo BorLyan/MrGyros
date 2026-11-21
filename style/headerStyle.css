@@ -3,17 +3,18 @@ header{
     align-items: center;
     justify-content: space-around;
 
-    width: 100%;
+    width: 100vw;
     height: 100px;
 
 
     font-weight: bold;
 }
 
-@media(max-width: 1036px){
-    .nav{
+@media (max-width: 1036px) {
+    header .nav{
         order: 1;
     }
+
     header{
         flex-wrap: wrap;
         height: 200px;
