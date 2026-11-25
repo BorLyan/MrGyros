@@ -1,21 +1,32 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-/* main{
+main{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 0px;
 }
 
-body{
-    font-family: 'Tahoma Negreta Custom';
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    gap: 0px;
-    justify-content: center;
-    flex-direction: column;
-} */
+
+.btn{
+    padding: 10px 40px;
+    margin-top: auto;
+
+    border-radius: 50px;
+    font-size: 16px;
+
+    background-color: rgb(197, 0, 0);
+    border: 2px solid rgb(197, 0, 0);
+
+    color: rgb(249, 186, 186);
+}
+
+.btn:hover{
+    background-color: white;
+    color:rgb(197, 0, 0);
+    
+}

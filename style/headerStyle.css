@@ -11,17 +11,6 @@ header{
     background-color: rgb(255, 255, 255);
 }
 
-@media (max-width: 1036px) {
-    header .nav{
-        order: 1;
-    }
-
-    header{
-        flex-wrap: wrap;
-        height: 200px;
-    }
-}
-
 header img{
     height: 100px;
     width: auto;
@@ -65,4 +54,22 @@ header div{
     height: 20px;
     width: auto;
     object-fit: cover;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1036px) {
+    header .nav{
+        order: 1;
+    }
+
+    header{
+        flex-wrap: wrap;
+        height: 200px;
+    }
 }
