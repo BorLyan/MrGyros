@@ -1,0 +1,70 @@
+.header-img{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://static.ucraft.net/fs/ucraft/userFiles/mrgyros/images/r157-2-15821085896563.jpg?v=1647590919");
+    background-size: cover;
+    font-family: 'Tahoma Negreta Custom';
+}
+
+.food-cuality{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.food-cuality-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 80%;
+
+    padding: 120px;
+    color: white;
+}
+
+.food-cuality-text p{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.food-cuality-text .btn-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    
+    color: rgb(197, 0, 0);
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.food-cuality-text .btn-menu:hover{
+    background-color: rgb(197, 0, 0);
+    color: white;
+    transition: 0.1s;
+}
+
+.food-cuality-img{
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+
+.food-cuality-img img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
