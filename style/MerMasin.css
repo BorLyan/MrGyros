@@ -1,5 +1,5 @@
 .header-img{
-    width: 100vw;
+    width: 100%;
     height: 150vh;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     position: relative;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -55,7 +55,7 @@
 }
 
 .food-cuality-img{
-    position: fixed;
+    position:fixed;
     z-index: -1;
     top: 0;
     bottom: 0;
